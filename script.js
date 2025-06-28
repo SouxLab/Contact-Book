@@ -68,3 +68,12 @@ function showEditContacts(contactId) {
     //Load contact data for editing
     loadContactForEdit(contactId)
 }
+
+function getContacts() {
+    const contactList = document.getElementById('contactsList');
+    contactList.innerHTML = '<div class= "Loading">Loading contacts...</div>';
+
+    
+
+    
+}
